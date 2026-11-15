@@ -31,7 +31,6 @@ const content = {
         "Na FLS Consultoria fui muito além e saí dos fluxos para sistemas completos. Projetei, construí e mantenho a automação de leads da empresa em Node.js: uma API de captação, um assistente de pré-atendimento no WhatsApp e um painel administrativo, todos em produção e integrados a 12 serviços, como CRM, Meta Ads, Hotmart, Calendly e Google Agenda. Também faço a gestão do tráfego pago, então vejo os dois lados: o anúncio que traz o lead e o sistema que transforma esse lead em reunião ou venda.",
         "Uso IA como par de programação, mas sem abrir mão da engenharia. Cada mudança passa por testes automatizados (são mais de 400 nos sistemas da FLS), revisão de segurança e cuidado com a LGPD, porque sistema em produção não pode quebrar quando o cliente está do outro lado.",
         "Fora do trabalho, sigo construindo: o FitProgress, uma plataforma de treinos com FastAPI, React e Supabase rodando na AWS, e o Olho do Bairro, um projeto em equipe da faculdade com Spring Boot e React. Também estudo AWS, segurança da informação, Docker e sistemas distribuídos, quase sempre com uma playlist tocando no Spotify 🎧.",
-        "Busco oportunidades onde eu possa unir desenvolvimento, automação e IA para gerar resultado de verdade para o negócio.",
       ],
     },
     impact: {
@@ -191,7 +190,6 @@ const content = {
         "At FLS Consultoria I took it much further, going from flows to full systems. I designed, built and maintain the company's lead automation stack in Node.js: a lead capture API, a WhatsApp pre-sales assistant and an admin dashboard, all in production and integrated with 12 services such as the CRM, Meta Ads, Hotmart, Calendly and Google Calendar. I also manage the company's paid traffic, so I see both sides: the ad that brings the lead and the system that turns it into a meeting or a sale.",
         "I build with AI as a pair programmer, but I keep the engineering solid. Every change goes through automated tests (over 400 across the FLS systems), security review and LGPD compliance, because a production system can't break when there's a customer on the other side.",
         "Outside work I keep building: FitProgress, a workout platform with FastAPI, React and Supabase running on AWS, and Olho do Bairro, a university team project with Spring Boot and React. I'm also studying AWS, information security, Docker and distributed systems, usually with a playlist on Spotify 🎧.",
-        "I'm looking for opportunities where I can combine software development, automation and AI to deliver real business results.",
       ],
     },
     impact: {
