@@ -1,0 +1,96 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    text-align: left;
+}
+  
+.projects-container .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+  
+.projects-container .projects-grid .project {
+    text-align: left;
+}
+  
+.project h2:hover {
+    text-decoration: underline;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+  
+.zoom {
+    border-radius: 5px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+@media screen {
+    @media (max-width: 700px) {
+        .projects-container {
+            display: block;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+  
+        .projects-container .projects-grid {
+            display: block;
+        }
+      
+        .projects-container .projects-grid .project {
+            padding-bottom: 5%;
+        }
+    }
+}
+.projects-container .section-subtitle {
+    margin-top: -10px;
+    margin-bottom: 30px;
+    opacity: 0.75;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 4px 0 12px;
+
+    span {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, monospace;
+        font-size: 0.75rem;
+        padding: 3px 10px;
+        border-radius: 999px;
+        background: rgba(47, 111, 237, 0.18);
+        color: #9dbbff;
+    }
+}
+
+.project-link {
+    font-weight: 700;
+    color: #6f9cff !important;
+}
+
+.more-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    border: 2px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    text-align: center !important;
+    transition: border-color .2s;
+
+    span { font-size: 1.2rem; font-weight: 700; }
+
+    &:hover { border-color: #2f6fed; }
+}
+
+.light-mode {
+    .project-tags span { color: #1f4fb8; background: rgba(47, 111, 237, 0.1); }
+    .project-link { color: #2f6fed !important; }
+    .more-card { border-color: rgba(0, 0, 0, 0.15); }
+}
