@@ -20,7 +20,7 @@ function Timeline() {
               contentStyle={i === 0 ? { background: 'white', color: 'rgb(39, 40, 34)' } : undefined}
               contentArrowStyle={i === 0 ? { borderRight: '7px solid white' } : undefined}
               date={item.date}
-              iconStyle={{ background: '#2f6fed', color: 'white' }}
+              iconStyle={{ background: '#5000ca', color: 'white' }}
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
               <h3 className="vertical-timeline-element-title">{item.role}</h3>

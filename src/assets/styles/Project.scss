@@ -64,14 +64,14 @@
         font-size: 0.75rem;
         padding: 3px 10px;
         border-radius: 999px;
-        background: rgba(47, 111, 237, 0.18);
-        color: #9dbbff;
+        background: rgba(80, 0, 202, 0.18);
+        color: #c7adff;
     }
 }
 
 .project-link {
     font-weight: 700;
-    color: #6f9cff !important;
+    color: #a57cff !important;
 }
 
 .more-card {
@@ -86,11 +86,60 @@
 
     span { font-size: 1.2rem; font-weight: 700; }
 
-    &:hover { border-color: #2f6fed; }
+    &:hover { border-color: #5000ca; }
 }
 
 .light-mode {
-    .project-tags span { color: #1f4fb8; background: rgba(47, 111, 237, 0.1); }
-    .project-link { color: #2f6fed !important; }
+    .project-tags span { color: #5000ca; background: rgba(80, 0, 202, 0.1); }
+    .project-link { color: #5000ca !important; }
     .more-card { border-color: rgba(0, 0, 0, 0.15); }
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    transition: transform .2s, border-color .2s;
+
+    &:hover { transform: translateY(-4px); border-color: #5000ca; }
+
+    h2 { margin: 10px 0 6px; }
+    p { flex: 1; line-height: 1.6; }
+    .project-link svg { margin-right: 4px; }
+}
+
+.project-badge {
+    align-self: flex-start;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 4px 10px;
+    border-radius: 999px;
+    color: #c7adff;
+    background: rgba(80, 0, 202, 0.25);
+
+    &.live {
+        color: #7ee2a8;
+        background: rgba(46, 160, 67, 0.18);
+    }
+
+    &.live::before { content: "● "; }
+}
+
+.light-mode {
+    .project-card {
+        background: white;
+        border-color: rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    }
+    .project-badge { color: #5000ca; background: rgba(80, 0, 202, 0.1); }
+    .project-badge.live { color: #1a7f37; background: rgba(46, 160, 67, 0.12); }
+}
+
+@media (max-width: 700px) {
+    .projects-container .projects-grid .project-card { margin-bottom: 20px; }
 }

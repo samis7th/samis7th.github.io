@@ -166,14 +166,14 @@
     padding: 12px 26px;
     border: 0;
     border-radius: 999px;
-    background: #2f6fed;
+    background: #5000ca;
     color: white !important;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
     transition: transform .15s, background-color .15s;
 
-    &:hover { background: #2559c4; transform: translateY(-2px); }
+    &:hover { background: #3d009c; transform: translateY(-2px); }
 }
 
 @media (max-width: 768px) {
