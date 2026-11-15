@@ -25,10 +25,13 @@ const content = {
     about: {
       title: "Sobre mim",
       paragraphs: [
-        "Oi, eu sou o Samuel 👋 Sou estudante de Engenharia de Software e gosto do momento em que algo que eu construí sai da minha máquina e começa a resolver um problema real para pessoas reais.",
-        "Me apaixonei por automação no estágio na HM Soluções, criando fluxos no N8N que tiravam trabalho repetitivo das pessoas: conversas integradas ao WhatsApp que reduziram o tempo de resposta ao cliente e planilhas do Google que se organizavam sozinhas. Ali percebi que queria construir coisas que mudam a forma como uma equipe trabalha.",
-        "Na FLS Consultoria fui muito além: saí dos fluxos para sistemas completos. Projetei, construí e mantenho a automação de leads da empresa em Node.js: uma API de captação, um assistente no WhatsApp e um painel administrativo que rodam em produção todos os dias. Também faço a gestão do tráfego pago, então vejo os dois lados: o anúncio que traz o lead e o sistema que transforma esse lead em reunião ou venda.",
-        "Uso IA como par de programação, mas sem abrir mão da engenharia: testes, segurança e integrações bem feitas. Minha base em suporte de TI (hoje sou analista na Penso Tecnologia) me dá uma noção de infraestrutura que levo para tudo que construo.",
+        "Oi, eu sou o Samuel 👋 Sou estudante de Engenharia de Software na Unilins e gosto do momento em que algo que eu construí sai da minha máquina e começa a resolver um problema real para pessoas reais.",
+        "Minha trajetória começou no suporte de TI. Na Prefeitura de Lins passei mais de um ano e meio resolvendo chamados, cuidando da rede e configurando computadores com Windows e Linux. Hoje sou Analista de Suporte (N1) na Penso Tecnologia, trabalhando com firewall, VPN e monitoramento de infraestrutura. Foi ali que aprendi a pensar no sistema inteiro, do cabo até o usuário.",
+        "Me apaixonei por automação no estágio na HM Soluções. Criei fluxos no N8N que tiravam trabalho repetitivo das pessoas: conversas integradas ao WhatsApp que reduziram o tempo de resposta ao cliente e planilhas do Google alimentadas por API, sem ninguém copiando e colando. Ali percebi que queria construir coisas que mudam a forma como uma equipe trabalha.",
+        "Na FLS Consultoria fui muito além e saí dos fluxos para sistemas completos. Projetei, construí e mantenho a automação de leads da empresa em Node.js: uma API de captação, um assistente de pré-atendimento no WhatsApp e um painel administrativo, todos em produção e integrados a 12 serviços, como CRM, Meta Ads, Hotmart, Calendly e Google Agenda. Também faço a gestão do tráfego pago, então vejo os dois lados: o anúncio que traz o lead e o sistema que transforma esse lead em reunião ou venda.",
+        "Uso IA como par de programação, mas sem abrir mão da engenharia. Cada mudança passa por testes automatizados (são mais de 400 nos sistemas da FLS), revisão de segurança e cuidado com a LGPD, porque sistema em produção não pode quebrar quando o cliente está do outro lado.",
+        "Fora do trabalho, sigo construindo: o FitProgress, uma plataforma de treinos com FastAPI, React e Supabase rodando na AWS, e o Olho do Bairro, um projeto em equipe da faculdade com Spring Boot e React. Também estudo AWS, segurança da informação, Docker e sistemas distribuídos, quase sempre com uma playlist tocando no Spotify 🎧.",
+        "Busco oportunidades onde eu possa unir desenvolvimento, automação e IA para gerar resultado de verdade para o negócio.",
       ],
     },
     impact: {
@@ -162,10 +165,13 @@ const content = {
     about: {
       title: "About me",
       paragraphs: [
-        "Hey, I'm Samuel 👋 I'm a Software Engineering student, and I like the moment when something I built leaves my machine and starts solving a real problem for real people.",
-        "I got hooked on automation during my internship at HM Solucoes, building N8N flows that took repetitive work off people's plates: WhatsApp-integrated conversations that cut client response time, and Google Sheets pipelines that kept data organized on their own. That's when I realized I wanted to build things that change how a team works.",
-        "At FLS Consultoria I took it much further, going from flows to full systems. I designed, built and maintain the company's lead automation stack in Node.js: a lead capture API, a WhatsApp assistant and an admin dashboard running in production every day. I also manage the company's paid traffic, so I see both sides: the ad that brings the lead and the system that turns it into a meeting or a sale.",
-        "I build with AI as a pair programmer, but I keep the engineering solid: tests, security and clean integrations. My IT support background (today I'm an analyst at Penso Tecnologia) gives me a feel for infrastructure that I carry into everything I build.",
+        "Hey, I'm Samuel 👋 I'm a Software Engineering student at Unilins, and I like the moment when something I built leaves my machine and starts solving a real problem for real people.",
+        "My path started in IT support. At the city of Lins I spent over a year and a half closing tickets, maintaining the network and setting up Windows and Linux machines. Today I'm an IT Support Analyst (N1) at Penso Tecnologia, working with firewalls, VPNs and infrastructure monitoring. That's where I learned to think about the whole system, from the cable to the user.",
+        "I got hooked on automation during my internship at HM Solucoes. I built N8N flows that took repetitive work off people's plates: WhatsApp-integrated conversations that cut client response time, and Google Sheets fed by APIs, with no one copying and pasting. That's when I realized I wanted to build things that change how a team works.",
+        "At FLS Consultoria I took it much further, going from flows to full systems. I designed, built and maintain the company's lead automation stack in Node.js: a lead capture API, a WhatsApp pre-sales assistant and an admin dashboard, all in production and integrated with 12 services such as the CRM, Meta Ads, Hotmart, Calendly and Google Calendar. I also manage the company's paid traffic, so I see both sides: the ad that brings the lead and the system that turns it into a meeting or a sale.",
+        "I build with AI as a pair programmer, but I keep the engineering solid. Every change goes through automated tests (over 400 across the FLS systems), security review and LGPD compliance, because a production system can't break when there's a customer on the other side.",
+        "Outside work I keep building: FitProgress, a workout platform with FastAPI, React and Supabase running on AWS, and Olho do Bairro, a university team project with Spring Boot and React. I'm also studying AWS, information security, Docker and distributed systems, usually with a playlist on Spotify 🎧.",
+        "I'm looking for opportunities where I can combine software development, automation and AI to deliver real business results.",
       ],
     },
     impact: {
