@@ -12,7 +12,7 @@ export const LINKS = {
 
 const content = {
   pt: {
-    nav: [["Sobre", "about"], ["Impacto", "impact"], ["Especialidades", "expertise"], ["Experiência", "history"], ["Projetos", "projects"], ["Contato", "contact"]],
+    nav: [["Sobre", "about"], ["Especialidades", "expertise"], ["Experiência", "history"], ["Projetos", "projects"], ["Contato", "contact"]],
     menu: "Menu",
     langLabel: "EN",
     langAria: "Switch to English",
@@ -27,7 +27,7 @@ const content = {
       paragraphs: [
         "Oi, eu sou o Samuel 👋 Sou estudante de Engenharia de Software e gosto do momento em que algo que eu construí sai da minha máquina e começa a resolver um problema real para pessoas reais.",
         "Me apaixonei por automação no estágio na HM Soluções, criando fluxos no N8N que tiravam trabalho repetitivo das pessoas: conversas integradas ao WhatsApp que reduziram o tempo de resposta ao cliente e planilhas do Google que se organizavam sozinhas. Ali percebi que queria construir coisas que mudam a forma como uma equipe trabalha.",
-        "Na FLS Consultoria fui muito além: saí dos fluxos para sistemas completos. Projetei, construí e mantenho a automação de leads da empresa em Node.js — uma API de captação, um assistente no WhatsApp e um painel administrativo que rodam em produção todos os dias. Também faço a gestão do tráfego pago, então vejo os dois lados: o anúncio que traz o lead e o sistema que transforma esse lead em reunião ou venda.",
+        "Na FLS Consultoria fui muito além: saí dos fluxos para sistemas completos. Projetei, construí e mantenho a automação de leads da empresa em Node.js: uma API de captação, um assistente no WhatsApp e um painel administrativo que rodam em produção todos os dias. Também faço a gestão do tráfego pago, então vejo os dois lados: o anúncio que traz o lead e o sistema que transforma esse lead em reunião ou venda.",
         "Uso IA como par de programação, mas sem abrir mão da engenharia: testes, segurança e integrações bem feitas. Minha base em suporte de TI (hoje sou analista na Penso Tecnologia) me dá uma noção de infraestrutura que levo para tudo que construo.",
       ],
     },
@@ -49,7 +49,7 @@ const content = {
       items: [
         {
           title: "Backend & Integrações",
-          text: "APIs em Node.js e Express que conectam landing pages, CRM, pagamentos, agendas e mensageria — com filas, webhooks idempotentes, rate limit e LGPD.",
+          text: "APIs em Node.js e Express que conectam landing pages, CRM, pagamentos, agendas e mensageria, com filas, webhooks idempotentes, rate limit e LGPD.",
           chips: ["Node.js", "Express", "JavaScript", "TypeScript", "MySQL", "REST", "GraphQL", "Webhooks", "Python", "FastAPI", "Java", "Spring Boot", "React"],
         },
         {
@@ -64,7 +64,7 @@ const content = {
         },
         {
           title: "Infraestrutura & Suporte",
-          text: "Base sólida em redes, firewall/VPN, sistemas operacionais e monitoramento — e estudos em cloud e segurança para levar sistemas do cabo à nuvem.",
+          text: "Base sólida em redes, firewall/VPN, sistemas operacionais e monitoramento, além de estudos em cloud e segurança para levar sistemas do cabo à nuvem.",
           chips: ["Linux", "Docker", "AWS", "Firewall", "VPN", "Git", "Hostinger", "Jira"],
         },
       ],
@@ -149,7 +149,7 @@ const content = {
     footer: "Feito por Samuel Trevisan · Template por",
   },
   en: {
-    nav: [["About", "about"], ["Impact", "impact"], ["Expertise", "expertise"], ["Experience", "history"], ["Projects", "projects"], ["Contact", "contact"]],
+    nav: [["About", "about"], ["Expertise", "expertise"], ["Experience", "history"], ["Projects", "projects"], ["Contact", "contact"]],
     menu: "Menu",
     langLabel: "PT",
     langAria: "Mudar para português",
@@ -164,7 +164,7 @@ const content = {
       paragraphs: [
         "Hey, I'm Samuel 👋 I'm a Software Engineering student, and I like the moment when something I built leaves my machine and starts solving a real problem for real people.",
         "I got hooked on automation during my internship at HM Solucoes, building N8N flows that took repetitive work off people's plates: WhatsApp-integrated conversations that cut client response time, and Google Sheets pipelines that kept data organized on their own. That's when I realized I wanted to build things that change how a team works.",
-        "At FLS Consultoria I took it much further, going from flows to full systems. I designed, built and maintain the company's lead automation stack in Node.js — a lead capture API, a WhatsApp assistant and an admin dashboard running in production every day. I also manage the company's paid traffic, so I see both sides: the ad that brings the lead and the system that turns it into a meeting or a sale.",
+        "At FLS Consultoria I took it much further, going from flows to full systems. I designed, built and maintain the company's lead automation stack in Node.js: a lead capture API, a WhatsApp assistant and an admin dashboard running in production every day. I also manage the company's paid traffic, so I see both sides: the ad that brings the lead and the system that turns it into a meeting or a sale.",
         "I build with AI as a pair programmer, but I keep the engineering solid: tests, security and clean integrations. My IT support background (today I'm an analyst at Penso Tecnologia) gives me a feel for infrastructure that I carry into everything I build.",
       ],
     },
@@ -186,7 +186,7 @@ const content = {
       items: [
         {
           title: "Backend & Integrations",
-          text: "Node.js and Express APIs connecting landing pages, CRM, payments, calendars and messaging — with queues, idempotent webhooks, rate limiting and LGPD compliance.",
+          text: "Node.js and Express APIs connecting landing pages, CRM, payments, calendars and messaging, with queues, idempotent webhooks, rate limiting and LGPD compliance.",
           chips: ["Node.js", "Express", "JavaScript", "TypeScript", "MySQL", "REST", "GraphQL", "Webhooks", "Python", "FastAPI", "Java", "Spring Boot", "React"],
         },
         {
@@ -201,7 +201,7 @@ const content = {
         },
         {
           title: "Infrastructure & Support",
-          text: "Solid foundation in networking, firewall/VPN, operating systems and monitoring — plus cloud and security studies to take systems from the cable to the cloud.",
+          text: "Solid foundation in networking, firewall/VPN, operating systems and monitoring, plus cloud and security studies to take systems from the cable to the cloud.",
           chips: ["Linux", "Docker", "AWS", "Firewall", "VPN", "Git", "Hostinger", "Jira"],
         },
       ],

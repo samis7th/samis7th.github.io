@@ -7,7 +7,7 @@ function About() {
   return (
     <div id="about" className="section">
       <h1>{t.about.title}</h1>
-      <div className="about-text">
+      <div className="about-text about-card">
         {t.about.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
       </div>
     </div>

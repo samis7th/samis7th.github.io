@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import {
   Main,
   About,
-  Impact,
   Timeline,
   Expertise,
   Project,
@@ -42,7 +41,6 @@ function App() {
         <FadeIn transitionDuration={700}>
           <Main />
           <About />
-          <Impact />
           <Expertise />
           <Timeline />
           <Project />
