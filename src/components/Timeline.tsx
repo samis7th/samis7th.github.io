@@ -25,7 +25,7 @@ function Timeline() {
             >
               <h3 className="vertical-timeline-element-title">{item.role}</h3>
               <h4 className="vertical-timeline-element-subtitle">{item.company}</h4>
-              <p>{item.text}</p>
+              <ul className="timeline-bullets">{item.bullets.map((b) => <li key={b}>{b}</li>)}</ul>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>

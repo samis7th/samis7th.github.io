@@ -36,3 +36,15 @@
         color: rgb(39, 40, 34);
     }
 }
+.timeline-bullets {
+    margin: 12px 0 0;
+    padding-left: 18px;
+
+    li {
+        color: rgb(39, 40, 34);
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 6px;
+        font-family: "Lato", sans-serif;
+    }
+}
